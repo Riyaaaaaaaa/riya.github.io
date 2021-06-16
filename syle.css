@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding:  0px;
+    background: url('dance 2.jpg') no-repeat center ;
+   background-size: 100vw 100vh;
+    font-family: 'Staatliches', cursive;
+    background-size: cover;
+
+    color: white;
+}
+.left{
+border: 2px solid red;
+display: inline-block;
+position:absolute;
+top: 20px;
+left: 30px;
+}
+.left img{
+width: 36px;
+
+}
+.left div{
+    text align: center ;
+}
+.mid{
+border: 2px solid green;
+display: block;
+margin: 20px auto;
+width: 50%;
+font-size:small;
+}
+.right{
+border: 2px solid blue;
+display: inline-block;
+position: absolute;
+top: 20px;
+right: 30px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: yellow;
+    text-decoration: underline;
+    padding: 34px 23px;
+}
+.btn{
+    margin: 0px 4px;
+    background-color: black;
+    color: white;
+    padding: 3px 4px;
+    border: 2px solid grey;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(69, 92, 26) ;
+}
+.container{
+    border: 2px solid grey;
+    margin:50px 60px ;
+    padding: 50px;
+    width:1200px ;
+    border-radius:30px ;
+    color: white;
+}
+.conatiner h1{
+    font-size: 100px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
